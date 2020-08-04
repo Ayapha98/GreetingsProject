@@ -2,7 +2,7 @@ package commands;
 
 public interface Command {
 
-   String executeCommand(String input);
+   String executeCommand(String[] options);
 
 
 

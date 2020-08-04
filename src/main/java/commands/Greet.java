@@ -1,24 +1,26 @@
 package commands;
 
-public class Greet implements Command {
+import java.util.HashMap;
+
+import static languages.Language.*;
 
 
-    /*public String executeCommand(String[] options) {
-      /*  String language = options[1];
-        if (language.equals("Swahili")) {
-            return "Jambo, " + options[0];
+public class Greet {
+
+    HashMap<String,Integer> names = new HashMap<String,Integer>();
+
+    public String greet(String name, String language) {
+        names.put (name, 1 );
+        if (language.equalsIgnoreCase(SWAHILI.toString())) {
+           return "Jambo, " + name;
+        } else if (language.equalsIgnoreCase(ISIXHOSA.toString())) {
+            return "Molo, " + name;
+        } else if (language.equalsIgnoreCase(ENGLISH.toString())) {
+            return "Hello, " + name;
+        } else {
+            return "Please enter a language";
         }
-        else if(language.equals("Isixhosa")){
-            return "Molo, " + options[0];
-        }
-       return "Hello, " + options[0];
-    }*/
-
-    public String executeCommand(String input) {
-
-        if (input.equals( "Swahili"));
-        return "Jambo" + input;
-    } else if(){
 
     }
+
 }
