@@ -1,76 +1,75 @@
-import commands.Command;
-import commands.CommandType;
-import commands.Greet;
-import languages.Language;
+import counter.Count;
+import commands.Greeter;
+import commands.HelpCommand;
 
-import java.util.HashMap;
+
 import java.util.Scanner;
 
 public class App {
 
     public static void main(String[] args) {
-
-
-
-
+        Count counter = new Count();
+        HelpCommand helpCommand =new HelpCommand();
         Scanner scan = new Scanner(System.in);
 
 
-        //  System.out.println(command);
-
-//        String input  = {"greet Ayapha Swahili"};
-        while(true){
+        while (true) {
             System.out.print("Enter a command: ");
             String input = scan.nextLine();
-            String[] parts = input.split(" ");
-            if (parts.length<1){
-                System.out.println("Please enter a command");
+            String[] inputArray = input.split(" ");
+            if (inputArray.length < 1) {
+            System.out.println("Please enter a command");
                 continue;
             }
-            String command = parts[0];
-
-
+            String command = inputArray[0];
             if (command.equalsIgnoreCase("exit")) {
                 break;
             }
-
-             if (command.equalsIgnoreCase("greet")){
-                 String name = parts[1];
-                 String language = parts[2];
-
-                 Greet greet = new Greet();
-                 //greet.greet(name, language);
-                System.out.println(greet.greet(name, language));
-
-            } else {
-                System.out.println("please enter a command");
+            if (command.equalsIgnoreCase("help")){
+                String helpList ="List of Commands : [greet,greeted,clear,help,exit]. " +
+                        "1. greet [name] [language] - Returns a greeting on the screen. \n " +
+                        "\t Name(required) : The name of user to greet. \n " +
+                        "\t Language : A language in which the user will be greeted in .\n" +
+                        "2. greeted - Returns the number of times a user has been greeted. \n " +
+                        "3. clear [name/ all] - Removes the count from database. \n" +
+                        " \t name : The name of the user to clear,clears every user if all is entered .\n" +
+                        "4. help - Prints out current screen. \n" +
+                        "5. exit - Exits the app. \n";
+                System.out.println(helpList);
+                continue;
             }
+            if (command.equalsIgnoreCase("clear")){
+                String remove = inputArray[1];
+                if (remove.equalsIgnoreCase("all")){
+                    counter.clearAllUsers();
+                    System.out.println("All users have been cleared!");
+                } else {
+                    counter.clearUser(remove);
+                    System.out.println(remove + " has been cleared from list of greeted users!");
+                }
+            }
+                else if (command.equalsIgnoreCase("count")) {
+                String countArg = inputArray[1];
+                if (countArg.equalsIgnoreCase("all")) {
+                    System.out.println(counter.getTotalUserCount() + " user(s) greeted!");
+                } else
+                    System.out.println(  countArg + " has been greeted " + counter.getUserCount(countArg) + " time(s).");
+            }
+            else if (command.equalsIgnoreCase("greet")) {
+                    String name = inputArray[1];
+                    String language = inputArray[2];
 
+                    Greeter greeter = new Greeter(counter);
+
+                    System.out.println(greeter.greet(name, language));
+
+                } else {
+                    System.out.println("please enter a command");
+                }
+
+            }
         }
-    }
 }
-
-
-
-       /* while (true) {
-
-            System.out.println(greet.greet(name, language));
-
-            if (command.equalsIgnoreCase(greet.greet(name, language))){
-
-            }
-            else (command.equalsIgnoreCase("exit")) {
-                break;
-            }*/
-            /*
-            Do this in the loop
-            1) get input from users
-            2) split input into command, name, language
-            3) check command
-            4) if command.equalsIgnoreCase("exit") break;
-             */
-//            System.out.println(greet.greet(name, language));
-
 
 
 
