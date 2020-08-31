@@ -1,21 +1,13 @@
-package commands;
+package commands.commandprocesses;
 
-import counter.Count;
 import languages.Language;
-
-
 
 
 public class Greeter {
 
-    Count counter;
-
-    public Greeter(Count counter) {
-        this.counter = counter;
-    }
 
     public String greet(String name, String languageString) {
-        counter.countUser(name);
+
         Language language = getLanguage(languageString);
 
         switch (language) {
@@ -28,13 +20,15 @@ public class Greeter {
             case SWAHILI:
                 return  "Jambo, " + name;
 
+            case     
+
             default:
                  return   "Please enter a valid command!";
         }
     }
 
     private Language getLanguage(String lang){
-        // use a try catch block to return English as default greeting Language
+        //   return English as default greeting Language
         try {
             return Language.valueOf(lang.toUpperCase());
         }

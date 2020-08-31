@@ -34,6 +34,8 @@ public class Count implements Counter {
         names.clear();
     }
 
-
-    
+    private boolean updateCount(String username) {
+        names.put(username, names.get(username) + 1);
+        return true;
+    }
 }

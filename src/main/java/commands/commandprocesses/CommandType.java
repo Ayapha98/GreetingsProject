@@ -1,4 +1,4 @@
-package commands;
+package commands.commandprocesses;
 
 public enum CommandType {
     GREET,
