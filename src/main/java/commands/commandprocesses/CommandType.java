@@ -3,7 +3,7 @@ package commands.commandprocesses;
 public enum CommandType {
     GREET,
     GREETED,
-    COUNTER,
+    COUNT,
     CLEAR,
     EXIT,
     HELP

@@ -2,27 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bdc4574-1068-4323-9c50-e6dea6bee679" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/net.greet.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/commandprocesses/CommandProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/commandtypes/GreetProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/Output.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commandProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commands/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/commandprocesses/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commands/CommandType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/commandprocesses/CommandType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commands/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/commandtypes/Greeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commands/HelpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/commandtypes/HelpCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commands/Process.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/commandprocesses/Process.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commands/UserInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commands/commandprocesses/CommandProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/commandprocesses/CommandProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commands/commandprocesses/CommandType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/commandprocesses/CommandType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commands/commandtypes/ClearProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/commandtypes/ClearProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commands/commandtypes/CountProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/commandtypes/CountProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commands/commandtypes/ExitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/commandtypes/ExitCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commands/commandtypes/GreetProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/commandtypes/GreetProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commands/commandtypes/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/commandtypes/Greeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commands/commandtypes/HelpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/commandtypes/HelpCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/counter/Count.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/counter/Count.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/net.greet.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/commands/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commands/Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/commands/Counter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/commands/Greeter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commands/Greeter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/net.greet.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/counter/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/counter/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/languages/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/languages/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CommandProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Output.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commands/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commands/CommandType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commands/Greeter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commands/Greeter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commands/HelpCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commands/Process.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commands/UserInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commands/commandProcess/GreetProcess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/counter/Count.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/counter/Count.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/counter/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/counter/Counter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/languages/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/languages/Language.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,10 +187,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="311" y="58" width="800" height="677" key="#Project_Structure/67.27.1299.741@67.27.1299.741" timestamp="1594977364061" />
-    <state x="524" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1598435825122">
+    <state x="524" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1598963868935">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="524" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1598435825122" />
+    <state x="524" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1598963868935" />
     <state x="399" y="133" width="624" height="526" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1595412650931">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -217,22 +223,38 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1595505867608" />
-    <state width="1253" height="174" key="GridCell.Tab.0.bottom" timestamp="1598446863886">
+    <state width="1253" height="174" key="GridCell.Tab.0.bottom" timestamp="1599043438705">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="174" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1598446863886" />
-    <state width="1253" height="174" key="GridCell.Tab.0.center" timestamp="1598446863881">
+    <state width="1253" height="174" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1599043438705" />
+    <state width="1253" height="174" key="GridCell.Tab.0.center" timestamp="1599043438703">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="174" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1598446863881" />
-    <state width="1253" height="174" key="GridCell.Tab.0.left" timestamp="1598446863878">
+    <state width="1253" height="174" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1599043438703" />
+    <state width="1253" height="174" key="GridCell.Tab.0.left" timestamp="1599043438696">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="174" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1598446863878" />
-    <state width="1253" height="174" key="GridCell.Tab.0.right" timestamp="1598446863884">
+    <state width="1253" height="174" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1599043438696" />
+    <state width="1253" height="174" key="GridCell.Tab.0.right" timestamp="1599043438704">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="174" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1598446863884" />
+    <state width="1253" height="174" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1599043438704" />
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom" timestamp="1598882649838">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1598882649838" />
+    <state width="1253" height="219" key="GridCell.Tab.1.center" timestamp="1598882649836">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1598882649836" />
+    <state width="1253" height="219" key="GridCell.Tab.1.left" timestamp="1598882649835">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1598882649835" />
+    <state width="1253" height="219" key="GridCell.Tab.1.right" timestamp="1598882649837">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1598882649837" />
     <state x="249" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1594981969366">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -241,10 +263,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1595074042131" />
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1598516737406">
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1599034207101">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1598516737406" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1599034207101" />
     <state x="490" y="87" width="442" height="619" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1595421997401">
       <screen x="67" y="27" width="1299" height="741" />
     </state>

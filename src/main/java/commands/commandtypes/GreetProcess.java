@@ -1,5 +1,8 @@
-package commands.commandprocesses;
+package commands.commandtypes;
 
+
+import commands.commandprocesses.Command;
+import commands.commandprocesses.Process;
 import counter.Counter;
 
 public class GreetProcess implements Process {

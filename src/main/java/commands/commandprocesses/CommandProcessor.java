@@ -20,7 +20,7 @@ public class CommandProcessor {
             }
             return new Output(commandProcess.process(command), false);
         }
-        return new Output("Please enter a valid command!g\n Enter 'help' for list of valid commands \n", true);
+        return new Output("Please enter a valid command!\n Enter 'help' for a list of valid commands \n", true);
     }
 
 

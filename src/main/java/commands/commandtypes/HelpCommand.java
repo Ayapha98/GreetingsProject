@@ -1,8 +1,13 @@
 package commands.commandtypes;
 
-public class HelpCommand {
+import commands.commandprocesses.Command;
+import commands.commandprocesses.Process;
 
-    public String help() {
+public class HelpCommand implements Process{
+
+
+    @Override
+    public String process(Command command) {
         String helpList = "List of Commands : [greet,greeted,clear,help,exit]. \n Synopses \n" +
                 "1. greet [name] [language] - Returns a greeting on the screen. \n " +
                 "\t Name(required) : The name of user to greet. \n " +

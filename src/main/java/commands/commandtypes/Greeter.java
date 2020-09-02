@@ -1,4 +1,4 @@
-package commands.commandprocesses;
+package commands.commandtypes;
 
 import languages.Language;
 
@@ -12,15 +12,16 @@ public class Greeter {
 
         switch (language) {
             case ENGLISH:
-                return "Hello, " + name;
+                return "Hello, " + name +(".");
 
             case ISIXHOSA:
-             return "Molo, " + name;
+             return "Molo, " + name +(".");
 
             case SWAHILI:
-                return  "Jambo, " + name;
+                return  "Jambo, " + name +(".");
 
-            case     
+            case HAUSA:
+                return "Sannu, " + name +(".");
 
             default:
                  return   "Please enter a valid command!";

@@ -26,12 +26,14 @@ public class Count implements Counter {
         return names.size();
     }
 
-    public void clearUser(String username){
+    public boolean clearUser(String username){
         names.remove(username);
+        return true;
     }
 
-    public void clearAllUsers(){
+    public boolean clearAllUsers(){
         names.clear();
+        return true;
     }
 
     private boolean updateCount(String username) {
